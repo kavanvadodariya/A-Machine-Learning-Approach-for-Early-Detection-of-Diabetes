@@ -1,6 +1,4 @@
-# ==========================
-# COLAB CODE 1: PREPROCESSING
-# ==========================
+#Preprocessing
 
 import pandas as pd
 from sklearn.preprocessing import StandardScaler, LabelEncoder
@@ -41,5 +39,5 @@ processed_df.to_csv("/content/preprocessed_diabetes_dataset.csv", index=False)
 files.download("/content/preprocessed_diabetes_dataset.csv")
 
 # Preview
-print("✅ Data Preprocessing Completed!")
+print("Data Preprocessing Completed!")
 processed_df.head()
